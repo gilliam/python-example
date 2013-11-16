@@ -1,3 +1,4 @@
-www:
-  script: python web.py
-  ports: [80]
+processes:
+  www:
+    script: python web.py
+    ports: [80]
